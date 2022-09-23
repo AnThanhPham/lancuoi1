@@ -679,6 +679,10 @@ html{
     .content-title .sub-title-content1{
         margin-left: 5px;
     }
+
+    .modal-container{
+        margin-top: 20%;
+    }
 }
 
 @media (min-width: 46.1875em) and (max-width:63.9375em) {
