@@ -551,7 +551,7 @@ html{
     cursor: pointer;
 }
 
-@media  (max-width: 739px) {
+@media  (max-width: 46.1875em) {
     #header{
         overflow: hidden;
     }
@@ -659,7 +659,7 @@ html{
     }
 
     .social-list{
-        font-size: 35px;
+        font-size: 30px;
     }
 
     .social-list a{
@@ -667,7 +667,7 @@ html{
     }
 
     .copyright, .copyright a{
-        font-size: 27px;
+        font-size: 20px;
     }
 
     .copyright a{
@@ -675,9 +675,13 @@ html{
         padding: 14px;
         display: inline-block;
     }
+
+    .content-title .sub-title-content1{
+        margin-left: 5px;
+    }
 }
 
-@media (min-width: 740px) and (max-width:1023px) {
+@media (min-width: 46.1875em) and (max-width:63.9375em) {
     #nav .subnav a{
         line-height: 46px;
     }
