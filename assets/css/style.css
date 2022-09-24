@@ -385,7 +385,6 @@ html{
     min-height: 500px;
     position: relative;
     margin: auto;
-    width: 900px;
     margin-top: 150px;
     animation: modalFadeIn ease 0.4s;
 }
@@ -718,5 +717,11 @@ html{
         margin-left: -7px;
         padding: 14px;
         display: inline-block;
+    }
+}
+
+@media (min-width:1024px){
+    .modal-container{
+        width: 900px;
     }
 }
