@@ -720,8 +720,15 @@ html{
     }
 }
 
-@media (min-width:1024px){
+@media (min-width:1024px) {
     .modal-container{
         width: 900px;
+    }
+}
+
+
+@media (max-width:1024px) and (min-width:740px) {
+    .modal-container{
+        min-width: 750px;
     }
 }
